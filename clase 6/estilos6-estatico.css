@@ -1,0 +1,28 @@
+.contenedor{
+    background-color: gray;
+    width: 60%;
+    margin: 0 auto;   /* dos valores: 1er valor (Y)arriba y abajo, 2do valor (X) derecha a izq */
+    height: 600px;/* solo para entender ejemplo, el mismo contenido lo acomodaría */
+   /*  padding-top: 20px; */
+    }
+
+    .verde{
+        background-color: lightseagreen;
+        width: 90%;
+        margin: 0 auto 20px; /* arriba 0 , laterales auto, abajo 20px */
+        height: 150px;
+        /* position: static; */
+    }
+    .celeste{
+        background-color: lightskyblue;
+        width: 90%;
+        margin: 0 auto 20px; /* arriba 0 , laterales auto, abajo 20px */
+        height: 150px;
+    }
+    .amarillo{
+        background-color: lightyellow;
+        width: 90%;
+        margin: 0 auto 20px; /* arriba 0 , laterales auto, abajo 20px */
+        height: 150px;
+    }
+    
