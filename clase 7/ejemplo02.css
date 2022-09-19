@@ -1,0 +1,37 @@
+/* CLASE 7 TRANSFORMACIONES Y  TRANSICIONES*/
+
+
+.caja{
+    width: 300px;
+    height: 150px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px;
+    
+    transition: all 0.5s ease 0s; /* transicion siempre en elemento base */
+ 
+}
+
+/* :HOVER - CUANDO PASA EL CURSOR APLICA PROP */
+ .caja:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+img{
+    margin-left: 100px;
+    transition: all 2s ease; /* transicion siempre en elemento base */
+}
+img:hover{ /* :HOVER - CUANDO PASA EL CURSOR APLICA PROP */
+
+transform: scale(1.5) ;
+    filter: grayscale(80%);
+    cursor: crosshair;
+    opacity: 0.5;
+
+}
+
