@@ -98,7 +98,6 @@ footer{
     margin-top: 20px;
 }
 
-
 .historia p{
     font-size: 13px;
 }
@@ -111,11 +110,46 @@ footer{
     border: 1px solid lightgray;
     border-radius: 15px;
     width: 18%;
-    margin: auto;
-    display: block;
+    text-align: center;
+    padding: 3%;
+    box-sizing: border-box  ;
 }
 .card img{
-    border-radius: 100%;
-    align-items: center;
-    padding: 15px;
+    display: flex;
+    margin: auto;
+    border-radius: 50%;
+    max-width: 75%;    
+    box-shadow:0 0 2px black;
+}
+.card p{
+    font-size: 11px;
+}
+.card h5,
+.card h6{
+    color: #2e64a1;
+    font-weight: normal;
+    margin: 0;
+}
+.card h5{
+    margin-top: 15px;
+}
+.card h6{
+    font-style: italic;
+
+}
+
+.servicio{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 16px 0;
+    padding: 16px;
+}
+
+.servicio .info h4{
+    color: #2e64a1;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #2e64a1;
 }
