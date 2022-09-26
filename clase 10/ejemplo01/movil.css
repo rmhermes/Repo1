@@ -1,0 +1,17 @@
+
+body{
+    background-color: rgb(128, 119, 119);
+ }
+ 
+ h1{
+     color: rgb(0, 0, 0);
+ }
+ p{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 15px;
+ }
+
+ h2{
+    color: greenyellow;
+    display: none; /* no muestra el objeto */
+ }

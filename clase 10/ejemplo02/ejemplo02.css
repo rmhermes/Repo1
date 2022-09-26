@@ -1,0 +1,108 @@
+body {
+    background-color: #332f29;
+}
+
+.contenedor {
+    /* aplicar max width al contenedor, nunca al body */
+    max-width: 960px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    
+}
+.holder{
+    display: flex;
+
+}
+header {
+    background-color: #8fa68e;
+    padding: 20px;
+
+}
+
+nav {
+    background-color: #b04848;
+    width: 30%;
+    padding: 20px;
+
+}
+
+main {
+    background-color: #f7d6cf;
+    width: 40%;
+    padding: 20px;
+}
+
+aside {
+    background-color: #1abc9c;
+    width: 30%;    padding: 20px;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+nav ul li a{
+    color: wheat;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 25px;
+    transition: all 0.2s ease;
+}
+nav ul li a:hover{
+    background-color: rgb(153, 117, 50);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: 2px solid rgb(19, 19, 19);
+    border-radius: 15px;
+}
+footer{
+        text-align: center;
+    background-color: #ccc59e;
+}
+
+@media (max-width:480px){
+    body{
+        background-color: wheat;
+        margin: 0%;
+    }
+    .holder{
+        flex-wrap: wrap;
+
+    }
+    header{
+        text-align: center;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        padding: 0%;
+        width: 100%;
+        border-bottom: 2px solid #332f29;
+        
+    }
+    nav ul {
+        height: auto;
+        padding: 0%;
+        text-align: center;
+        display: flex;
+    }
+
+    main{
+        width: 100%;
+        
+        border-bottom: 2px solid #332f29;
+    }
+    main p{
+        font-size: 15px;
+    }
+    aside{
+        width: 100%;
+        
+        border-bottom: 2px solid #332f29;
+    }
+    aside p{
+        font-size: 15px;}
+
+
+
+}
