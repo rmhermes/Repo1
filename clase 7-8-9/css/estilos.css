@@ -240,3 +240,28 @@ footer{
 /* WEB MOBILE MEDIA QUERIES */
 /* 3 reso: pc /note - Tablet - Celu */
 
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.galeria ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-left: 130px;
+    
+    
+}
+.galeria li{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.galeria img{
+    max-width: 200px;
+}
+
+.galeria img:hover{
+    transform: scale(150%);
+}
